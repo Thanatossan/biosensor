@@ -13,7 +13,7 @@ class LaserAgilent8168D(Opticalmultimeter):
         self.tunable_laser = rm.open_resource(GPIB)
         self.tunable_laser.timeout = 5000
         print(self.tunable_laser.query('*IDN?'))
-
+        return self.tunable_laser.query('*IDN?')
     def wave_range(self):
         try:
             min_wave = self.tunable_laser.query(':wave? min')
@@ -61,14 +61,16 @@ class LaserAgilent8168D(Opticalmultimeter):
         return bool(int(on_off))
 
     def set_unit(self, unit):
-        assert unit.lower().strip() in ('dbm', '\u00B5w', 'w')
-        if unit.lower().strip() == '\u00B5w':
-            unit = 'w'
+        assert unit.lower().strip() in ('dbm', '\u00B5mw', 'mw')
+        if unit.lower().strip() == '\u00B5mw':
+            unit = 'mw'
+            print("mW")
         elif unit.lower().strip() == 'dbm':
             unit = 'dbm'
         cmd = ':power:unit %s' % unit
         self.tunable_laser.write(cmd)
         self._power_unit = self.get_unit()
+        
         return self._power_unit
 
     def get_unit(self):
@@ -78,16 +80,18 @@ class LaserAgilent8168D(Opticalmultimeter):
         if unit == 0:
             unit_str = 'dBm'
         else:
-            unit_str = 'W'
+            unit_str = 'mW'
+            
         return unit_str
 
     def set_power(self, power):
         if self._power_unit == 'dBm':
             cmd = ':power %fdbm' % power
 
-        elif self._power_unit == 'W':
-            cmd = ':pow %fuw' % power
+        elif self._power_unit == 'mW':
+            cmd = ':pow %fmw' % power
         self.tunable_laser.write(cmd)
+
         return self.get_power()
 
     def get_power(self):

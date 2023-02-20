@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1061</width>
-    <height>805</height>
+    <width>1292</width>
+    <height>786</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -27,7 +27,7 @@ background-color : #FFFFFF;
      <rect>
       <x>70</x>
       <y>10</y>
-      <width>981</width>
+      <width>1211</width>
       <height>781</height>
      </rect>
     </property>
@@ -35,7 +35,7 @@ background-color : #FFFFFF;
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="mainpage">
      <property name="styleSheet">
@@ -48,7 +48,7 @@ background-color: #FFFFFF;
        <rect>
         <x>-40</x>
         <y>0</y>
-        <width>1011</width>
+        <width>1251</width>
         <height>781</height>
        </rect>
       </property>
@@ -64,7 +64,7 @@ border-radius: 10px;
       <widget class="QPushButton" name="basicmode_button">
        <property name="geometry">
         <rect>
-         <x>310</x>
+         <x>510</x>
          <y>410</y>
          <width>341</width>
          <height>71</height>
@@ -99,7 +99,7 @@ color: #FFFFFF;
       <widget class="QPushButton" name="advancemode_button">
        <property name="geometry">
         <rect>
-         <x>310</x>
+         <x>510</x>
          <y>530</y>
          <width>341</width>
          <height>71</height>
@@ -134,8 +134,8 @@ color: #FFFFFF;
       <widget class="QWidget" name="logo" native="true">
        <property name="geometry">
         <rect>
-         <x>330</x>
-         <y>190</y>
+         <x>540</x>
+         <y>200</y>
          <width>301</width>
          <height>121</height>
         </rect>
@@ -629,231 +629,6 @@ color: #FFFFFF;
         </property>
        </widget>
       </widget>
-      <widget class="QLabel" name="status_lightSource_2">
-       <property name="geometry">
-        <rect>
-         <x>140</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="Line" name="line_5">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>70</y>
-         <width>991</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: #3AB795;</string>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>5</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_lightSource_2">
-       <property name="geometry">
-        <rect>
-         <x>240</x>
-         <y>0</y>
-         <width>179</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Light Source</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_devices">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>0</y>
-         <width>101</width>
-         <height>85</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Devices</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_pump_2">
-       <property name="geometry">
-        <rect>
-         <x>760</x>
-         <y>0</y>
-         <width>71</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Pump</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="status_powerMeter_2">
-       <property name="geometry">
-        <rect>
-         <x>410</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QLabel" name="status_pump_2">
-       <property name="geometry">
-        <rect>
-         <x>670</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="connect_button_2">
-       <property name="geometry">
-        <rect>
-         <x>880</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>10</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-         <kerning>false</kerning>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: #9D59BF;
-border-radius: 10px;
-border:none;
-color: #FFFFFF;
-</string>
-       </property>
-       <property name="text">
-        <string>Connect</string>
-       </property>
-       <property name="autoDefault">
-        <bool>false</bool>
-       </property>
-       <property name="default">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_powerMeter_2">
-       <property name="geometry">
-        <rect>
-         <x>500</x>
-         <y>0</y>
-         <width>179</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Power meter</string>
-       </property>
-      </widget>
       <widget class="QPushButton" name="back_button_6">
        <property name="geometry">
         <rect>
@@ -907,236 +682,11 @@ background-color : #FFFFFF;
 
 }</string>
       </property>
-      <widget class="QLabel" name="status_lightSource_3">
-       <property name="geometry">
-        <rect>
-         <x>140</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="Line" name="line_9">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>70</y>
-         <width>991</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: #3AB795;</string>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>5</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_lightSource_3">
-       <property name="geometry">
-        <rect>
-         <x>240</x>
-         <y>0</y>
-         <width>179</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Light Source</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_devices_2">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>0</y>
-         <width>101</width>
-         <height>85</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Devices</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_pump_3">
-       <property name="geometry">
-        <rect>
-         <x>760</x>
-         <y>0</y>
-         <width>71</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Pump</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="status_powerMeter_3">
-       <property name="geometry">
-        <rect>
-         <x>410</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QLabel" name="status_pump_3">
-       <property name="geometry">
-        <rect>
-         <x>670</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="connect_button_3">
-       <property name="geometry">
-        <rect>
-         <x>880</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>10</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-         <kerning>false</kerning>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: #9D59BF;
-border-radius: 10px;
-border:none;
-color: #FFFFFF;
-</string>
-       </property>
-       <property name="text">
-        <string>Connect</string>
-       </property>
-       <property name="autoDefault">
-        <bool>false</bool>
-       </property>
-       <property name="default">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_powerMeter_3">
-       <property name="geometry">
-        <rect>
-         <x>500</x>
-         <y>0</y>
-         <width>179</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Power meter</string>
-       </property>
-      </widget>
       <widget class="QWidget" name="powermeterChannelField2" native="true">
        <property name="geometry">
         <rect>
-         <x>370</x>
-         <y>250</y>
+         <x>390</x>
+         <y>210</y>
          <width>301</width>
          <height>111</height>
         </rect>
@@ -1233,7 +783,7 @@ border-radius: 10px;
       <widget class="QWidget" name="laserField2" native="true">
        <property name="geometry">
         <rect>
-         <x>450</x>
+         <x>470</x>
          <y>500</y>
          <width>141</width>
          <height>111</height>
@@ -1355,8 +905,8 @@ color: #FFFFFF;
       <widget class="QLabel" name="label_settingPowerMeter">
        <property name="geometry">
         <rect>
-         <x>80</x>
-         <y>150</y>
+         <x>100</x>
+         <y>110</y>
          <width>261</width>
          <height>50</height>
         </rect>
@@ -1382,7 +932,7 @@ color: #FFFFFF;
       <widget class="QLabel" name="label_settingLaser">
        <property name="geometry">
         <rect>
-         <x>90</x>
+         <x>110</x>
          <y>430</y>
          <width>261</width>
          <height>50</height>
@@ -1494,236 +1044,11 @@ background-color : #FFFFFF;
 
 }</string>
       </property>
-      <widget class="QLabel" name="status_lightSource_4">
-       <property name="geometry">
-        <rect>
-         <x>140</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="Line" name="line_12">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>70</y>
-         <width>991</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: #3AB795;</string>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>5</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_lightSource_4">
-       <property name="geometry">
-        <rect>
-         <x>240</x>
-         <y>0</y>
-         <width>179</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Light Source</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_devices_3">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>0</y>
-         <width>101</width>
-         <height>85</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Devices</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_pump_4">
-       <property name="geometry">
-        <rect>
-         <x>760</x>
-         <y>0</y>
-         <width>71</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Pump</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="status_powerMeter_4">
-       <property name="geometry">
-        <rect>
-         <x>410</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QLabel" name="status_pump_4">
-       <property name="geometry">
-        <rect>
-         <x>670</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="connect_button_4">
-       <property name="geometry">
-        <rect>
-         <x>880</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>10</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-         <kerning>false</kerning>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: #9D59BF;
-border-radius: 10px;
-border:none;
-color: #FFFFFF;
-</string>
-       </property>
-       <property name="text">
-        <string>Connect</string>
-       </property>
-       <property name="autoDefault">
-        <bool>false</bool>
-       </property>
-       <property name="default">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_powerMeter_4">
-       <property name="geometry">
-        <rect>
-         <x>500</x>
-         <y>0</y>
-         <width>179</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Power meter</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_settingLightSource">
        <property name="geometry">
         <rect>
          <x>80</x>
-         <y>150</y>
+         <y>110</y>
          <width>261</width>
          <height>50</height>
         </rect>
@@ -1750,7 +1075,7 @@ color: #FFFFFF;
        <property name="geometry">
         <rect>
          <x>80</x>
-         <y>480</y>
+         <y>440</y>
          <width>341</width>
          <height>50</height>
         </rect>
@@ -1777,7 +1102,7 @@ color: #FFFFFF;
        <property name="geometry">
         <rect>
          <x>320</x>
-         <y>230</y>
+         <y>190</y>
          <width>451</width>
          <height>191</height>
         </rect>
@@ -2265,7 +1590,7 @@ padding: 0 8px;</string>
        <property name="geometry">
         <rect>
          <x>290</x>
-         <y>570</y>
+         <y>530</y>
          <width>491</width>
          <height>121</height>
         </rect>
@@ -4314,231 +3639,6 @@ background-color : #FFFFFF;
 
 }</string>
       </property>
-      <widget class="QLabel" name="status_lightSource_8">
-       <property name="geometry">
-        <rect>
-         <x>140</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="Line" name="line_29">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>70</y>
-         <width>991</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: #3AB795;</string>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>5</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_lightSource_6">
-       <property name="geometry">
-        <rect>
-         <x>240</x>
-         <y>0</y>
-         <width>179</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Light Source</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_devices_5">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>0</y>
-         <width>101</width>
-         <height>85</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Devices</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_pump_6">
-       <property name="geometry">
-        <rect>
-         <x>760</x>
-         <y>0</y>
-         <width>71</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Pump</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="status_powerMeter_8">
-       <property name="geometry">
-        <rect>
-         <x>410</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QLabel" name="status_pump_8">
-       <property name="geometry">
-        <rect>
-         <x>670</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="connect_button_8">
-       <property name="geometry">
-        <rect>
-         <x>880</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>10</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-         <kerning>false</kerning>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: #9D59BF;
-border-radius: 10px;
-border:none;
-color: #FFFFFF;
-</string>
-       </property>
-       <property name="text">
-        <string>Connect</string>
-       </property>
-       <property name="autoDefault">
-        <bool>false</bool>
-       </property>
-       <property name="default">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_powerMeter_6">
-       <property name="geometry">
-        <rect>
-         <x>500</x>
-         <y>0</y>
-         <width>179</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Power meter</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_measure">
        <property name="geometry">
         <rect>
@@ -4784,231 +3884,6 @@ background-color : #FFFFFF;
 
 }</string>
       </property>
-      <widget class="QLabel" name="status_lightSource_7">
-       <property name="geometry">
-        <rect>
-         <x>140</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="Line" name="line_31">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>70</y>
-         <width>991</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: #3AB795;</string>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="lineWidth">
-        <number>5</number>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_lightSource_7">
-       <property name="geometry">
-        <rect>
-         <x>240</x>
-         <y>0</y>
-         <width>179</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Light Source</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_devices_6">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>0</y>
-         <width>101</width>
-         <height>85</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Devices</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_pump_7">
-       <property name="geometry">
-        <rect>
-         <x>760</x>
-         <y>0</y>
-         <width>71</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Pump</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="status_powerMeter_7">
-       <property name="geometry">
-        <rect>
-         <x>410</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QLabel" name="status_pump_7">
-       <property name="geometry">
-        <rect>
-         <x>670</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <strikeout>false</strikeout>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-background-color: #ff6961 ;
-border-radius: 10px;
-border-style: outset;
-
-</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="connect_button_7">
-       <property name="geometry">
-        <rect>
-         <x>880</x>
-         <y>20</y>
-         <width>81</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>10</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-         <kerning>false</kerning>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: #9D59BF;
-border-radius: 10px;
-border:none;
-color: #FFFFFF;
-</string>
-       </property>
-       <property name="text">
-        <string>Connect</string>
-       </property>
-       <property name="autoDefault">
-        <bool>false</bool>
-       </property>
-       <property name="default">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_powerMeter_7">
-       <property name="geometry">
-        <rect>
-         <x>500</x>
-         <y>0</y>
-         <width>179</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Inter</family>
-         <pointsize>14</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:#9D59BF;</string>
-       </property>
-       <property name="text">
-        <string>Power meter</string>
-       </property>
-      </widget>
       <widget class="QPushButton" name="back_button_3">
        <property name="geometry">
         <rect>
@@ -5273,7 +4148,7 @@ border-radius: 10px;
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>991</width>
+        <width>1211</width>
         <height>781</height>
        </rect>
       </property>
@@ -5289,14 +4164,14 @@ background-color : #FFFFFF;
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>1001</width>
+         <width>1211</width>
          <height>80</height>
         </rect>
        </property>
        <widget class="QLabel" name="label_devices_7">
         <property name="geometry">
          <rect>
-          <x>10</x>
+          <x>70</x>
           <y>0</y>
           <width>101</width>
           <height>85</height>
@@ -5320,7 +4195,7 @@ background-color : #FFFFFF;
        <widget class="QLabel" name="status_pump_6">
         <property name="geometry">
          <rect>
-          <x>670</x>
+          <x>830</x>
           <y>20</y>
           <width>81</width>
           <height>41</height>
@@ -5346,7 +4221,7 @@ border-style: outset;
        <widget class="QLabel" name="status_lightSource_6">
         <property name="geometry">
          <rect>
-          <x>140</x>
+          <x>230</x>
           <y>20</y>
           <width>81</width>
           <height>41</height>
@@ -5372,16 +4247,16 @@ border-style: outset;
        <widget class="QPushButton" name="connect_button_6">
         <property name="geometry">
          <rect>
-          <x>880</x>
+          <x>1070</x>
           <y>20</y>
-          <width>81</width>
+          <width>91</width>
           <height>41</height>
          </rect>
         </property>
         <property name="font">
          <font>
           <family>Inter</family>
-          <pointsize>10</pointsize>
+          <pointsize>13</pointsize>
           <weight>50</weight>
           <bold>false</bold>
           <kerning>false</kerning>
@@ -5407,7 +4282,7 @@ color: #FFFFFF;
        <widget class="QLabel" name="label_pump_8">
         <property name="geometry">
          <rect>
-          <x>760</x>
+          <x>940</x>
           <y>0</y>
           <width>71</width>
           <height>81</height>
@@ -5429,7 +4304,7 @@ color: #FFFFFF;
        <widget class="QLabel" name="label_lightSource_8">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>330</x>
           <y>0</y>
           <width>179</width>
           <height>81</height>
@@ -5451,9 +4326,9 @@ color: #FFFFFF;
        <widget class="QLabel" name="label_powerMeter_8">
         <property name="geometry">
          <rect>
-          <x>500</x>
+          <x>640</x>
           <y>0</y>
-          <width>179</width>
+          <width>151</width>
           <height>81</height>
          </rect>
         </property>
@@ -5473,7 +4348,7 @@ color: #FFFFFF;
        <widget class="QLabel" name="status_powerMeter_6">
         <property name="geometry">
          <rect>
-          <x>410</x>
+          <x>540</x>
           <y>20</y>
           <width>81</width>
           <height>41</height>
@@ -5501,7 +4376,7 @@ border-style: outset;
          <rect>
           <x>0</x>
           <y>70</y>
-          <width>991</width>
+          <width>1201</width>
           <height>16</height>
          </rect>
         </property>
@@ -5524,7 +4399,7 @@ border-style: outset;
         <rect>
          <x>0</x>
          <y>80</y>
-         <width>1001</width>
+         <width>1211</width>
          <height>701</height>
         </rect>
        </property>
@@ -5561,16 +4436,16 @@ border-radius: 10px;
            <widget class="QLabel" name="label_settingParameter_3">
             <property name="geometry">
              <rect>
-              <x>140</x>
+              <x>130</x>
               <y>10</y>
-              <width>179</width>
+              <width>211</width>
               <height>41</height>
              </rect>
             </property>
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>12</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
@@ -5588,7 +4463,7 @@ border-radius: 10px;
            <widget class="QPushButton" name="defaultParameter_button_3">
             <property name="geometry">
              <rect>
-              <x>100</x>
+              <x>110</x>
               <y>60</y>
               <width>111</width>
               <height>41</height>
@@ -5597,7 +4472,7 @@ border-radius: 10px;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>12</pointsize>
               <weight>50</weight>
               <bold>false</bold>
               <kerning>false</kerning>
@@ -5623,7 +4498,7 @@ color: #FFFFFF;
            <widget class="QPushButton" name="manualParameter_button_3">
             <property name="geometry">
              <rect>
-              <x>240</x>
+              <x>250</x>
               <y>60</y>
               <width>111</width>
               <height>41</height>
@@ -5632,7 +4507,7 @@ color: #FFFFFF;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>12</pointsize>
               <weight>50</weight>
               <bold>false</bold>
               <kerning>false</kerning>
@@ -5656,233 +4531,13 @@ color: #FFFFFF;
             </property>
            </widget>
           </widget>
-          <widget class="QWidget" name="powermeterChannelField_2" native="true">
-           <property name="geometry">
-            <rect>
-             <x>10</x>
-             <y>140</y>
-             <width>301</width>
-             <height>111</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <kerning>false</kerning>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">#powermeterChannelField_2{
-border-style: outset;
- border-width: 2px;
-border-radius: 10px;
- border-color: #9D59BF;
-}
-
-</string>
-           </property>
-           <widget class="QLabel" name="label_powermeterChannel">
-            <property name="geometry">
-             <rect>
-              <x>20</x>
-              <y>0</y>
-              <width>179</width>
-              <height>41</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>Inter</family>
-              <pointsize>10</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color:#9D59BF;</string>
-            </property>
-            <property name="text">
-             <string>Power meter channel</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-           <widget class="QRadioButton" name="radioButton_channelA_3">
-            <property name="geometry">
-             <rect>
-              <x>20</x>
-              <y>60</y>
-              <width>121</width>
-              <height>20</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>Inter</family>
-              <pointsize>10</pointsize>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color:#9D59BF;
-</string>
-            </property>
-            <property name="text">
-             <string>Channel A</string>
-            </property>
-           </widget>
-           <widget class="QRadioButton" name="radioButton_channelB_3">
-            <property name="geometry">
-             <rect>
-              <x>150</x>
-              <y>60</y>
-              <width>121</width>
-              <height>20</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>Inter</family>
-              <pointsize>10</pointsize>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color:#9D59BF;
-</string>
-            </property>
-            <property name="text">
-             <string>Channel B</string>
-            </property>
-           </widget>
-          </widget>
-          <widget class="QWidget" name="laserField_2" native="true">
-           <property name="geometry">
-            <rect>
-             <x>320</x>
-             <y>140</y>
-             <width>141</width>
-             <height>111</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <kerning>false</kerning>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">#laserField_2{
-border-style: outset;
- border-width: 2px;
-border-radius: 10px;
- border-color: #9D59BF;
-}
-
-</string>
-           </property>
-           <widget class="QLabel" name="label_laser_3">
-            <property name="geometry">
-             <rect>
-              <x>20</x>
-              <y>10</y>
-              <width>101</width>
-              <height>41</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>Inter</family>
-              <pointsize>10</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color:#9D59BF;</string>
-            </property>
-            <property name="text">
-             <string>Laser</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-           <widget class="QPushButton" name="onLaser_button_3">
-            <property name="geometry">
-             <rect>
-              <x>10</x>
-              <y>50</y>
-              <width>51</width>
-              <height>41</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>Inter</family>
-              <pointsize>10</pointsize>
-              <weight>50</weight>
-              <bold>false</bold>
-              <kerning>false</kerning>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: #9D59BF;
-border-radius: 10px;
-border:none;
-color: #FFFFFF;
-</string>
-            </property>
-            <property name="text">
-             <string>On</string>
-            </property>
-            <property name="autoDefault">
-             <bool>false</bool>
-            </property>
-            <property name="default">
-             <bool>false</bool>
-            </property>
-           </widget>
-           <widget class="QPushButton" name="offLaser_button_3">
-            <property name="geometry">
-             <rect>
-              <x>80</x>
-              <y>50</y>
-              <width>51</width>
-              <height>41</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>Inter</family>
-              <pointsize>10</pointsize>
-              <weight>50</weight>
-              <bold>false</bold>
-              <kerning>false</kerning>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: #9D59BF;
-border-radius: 10px;
-border:none;
-color: #FFFFFF;
-</string>
-            </property>
-            <property name="text">
-             <string>Off</string>
-            </property>
-            <property name="autoDefault">
-             <bool>false</bool>
-            </property>
-            <property name="default">
-             <bool>false</bool>
-            </property>
-           </widget>
-          </widget>
           <widget class="QWidget" name="settingLightSourceField_2" native="true">
            <property name="geometry">
             <rect>
              <x>10</x>
-             <y>260</y>
+             <y>130</y>
              <width>451</width>
-             <height>201</height>
+             <height>231</height>
             </rect>
            </property>
            <property name="font">
@@ -5902,16 +4557,16 @@ border-radius: 10px;
            <widget class="QLabel" name="label_settingLightSource_3">
             <property name="geometry">
              <rect>
-              <x>20</x>
+              <x>10</x>
               <y>0</y>
-              <width>179</width>
+              <width>211</width>
               <height>41</height>
              </rect>
             </property>
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>12</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
@@ -5938,7 +4593,7 @@ border-radius: 10px;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -5953,38 +4608,11 @@ border-radius: 10px;
              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
             </property>
            </widget>
-           <widget class="QLabel" name="label_frequencyModulation_3">
-            <property name="geometry">
-             <rect>
-              <x>20</x>
-              <y>100</y>
-              <width>181</width>
-              <height>41</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>Inter</family>
-              <pointsize>10</pointsize>
-              <weight>50</weight>
-              <bold>false</bold>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color:#9D59BF;</string>
-            </property>
-            <property name="text">
-             <string>Frequency Modulation</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-            </property>
-           </widget>
            <widget class="QLabel" name="label_outputPower_3">
             <property name="geometry">
              <rect>
               <x>20</x>
-              <y>150</y>
+              <y>110</y>
               <width>181</width>
               <height>41</height>
              </rect>
@@ -5992,7 +4620,7 @@ border-radius: 10px;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -6019,7 +4647,7 @@ border-radius: 10px;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -6046,7 +4674,7 @@ border-radius: 10px;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -6073,13 +4701,13 @@ border-radius: 10px;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">color:#9D59BF;</string>
+             <string notr="true">color:#3AB795;</string>
             </property>
             <property name="text">
              <string>nm</string>
@@ -6088,81 +4716,11 @@ border-radius: 10px;
              <set>Qt::AlignCenter</set>
             </property>
            </widget>
-           <widget class="QPushButton" name="Hz_button_3">
-            <property name="geometry">
-             <rect>
-              <x>360</x>
-              <y>100</y>
-              <width>31</width>
-              <height>31</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>Inter</family>
-              <pointsize>9</pointsize>
-              <weight>50</weight>
-              <bold>false</bold>
-              <kerning>false</kerning>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: #9D59BF;
-border-radius: 10px;
-border:none;
-color: #FFFFFF;
-</string>
-            </property>
-            <property name="text">
-             <string>Hz</string>
-            </property>
-            <property name="autoDefault">
-             <bool>false</bool>
-            </property>
-            <property name="default">
-             <bool>false</bool>
-            </property>
-           </widget>
-           <widget class="QPushButton" name="kHz_button_3">
-            <property name="geometry">
-             <rect>
-              <x>400</x>
-              <y>100</y>
-              <width>41</width>
-              <height>31</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>Inter</family>
-              <pointsize>9</pointsize>
-              <weight>50</weight>
-              <bold>false</bold>
-              <kerning>false</kerning>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: #9D59BF;
-border-radius: 10px;
-border:none;
-color: #FFFFFF;
-</string>
-            </property>
-            <property name="text">
-             <string>kHz</string>
-            </property>
-            <property name="autoDefault">
-             <bool>false</bool>
-            </property>
-            <property name="default">
-             <bool>false</bool>
-            </property>
-           </widget>
            <widget class="QPushButton" name="W_button_3">
             <property name="geometry">
              <rect>
               <x>360</x>
-              <y>150</y>
+              <y>110</y>
               <width>31</width>
               <height>31</height>
              </rect>
@@ -6170,7 +4728,7 @@ color: #FFFFFF;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>9</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
               <kerning>false</kerning>
@@ -6197,7 +4755,7 @@ color: #FFFFFF;
             <property name="geometry">
              <rect>
               <x>400</x>
-              <y>150</y>
+              <y>110</y>
               <width>41</width>
               <height>31</height>
              </rect>
@@ -6205,7 +4763,7 @@ color: #FFFFFF;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>9</pointsize>
+              <pointsize>10</pointsize>
               <weight>50</weight>
               <bold>false</bold>
               <kerning>false</kerning>
@@ -6240,7 +4798,7 @@ color: #FFFFFF;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
              </font>
             </property>
             <property name="styleSheet">
@@ -6252,35 +4810,11 @@ padding: 0 8px;}
 </string>
             </property>
            </widget>
-           <widget class="QLineEdit" name="frequencyModulationInput_2">
-            <property name="geometry">
-             <rect>
-              <x>220</x>
-              <y>110</y>
-              <width>113</width>
-              <height>22</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>Inter</family>
-              <pointsize>10</pointsize>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">
-#frequencyModulationInput{color:#9D59BF;
-border: 2px solid #3AB795;
-border-radius: 10px;
-padding: 0 8px;}
-</string>
-            </property>
-           </widget>
            <widget class="QLineEdit" name="outputPowerInput_2">
             <property name="geometry">
              <rect>
               <x>220</x>
-              <y>160</y>
+              <y>120</y>
               <width>113</width>
               <height>22</height>
              </rect>
@@ -6288,7 +4822,7 @@ padding: 0 8px;}
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
              </font>
             </property>
             <property name="styleSheet">
@@ -6300,14 +4834,138 @@ padding: 0 8px;}
 </string>
             </property>
            </widget>
+           <widget class="QPushButton" name="onLaser_button_3">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>180</y>
+              <width>211</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>11</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+              <kerning>false</kerning>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: #9D59BF;
+border-radius: 10px;
+border:none;
+color: #FFFFFF;
+</string>
+            </property>
+            <property name="text">
+             <string>On</string>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="offLaser_button_3">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>180</y>
+              <width>201</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>11</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+              <kerning>false</kerning>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: #9D59BF;
+border-radius: 10px;
+border:none;
+color: #FFFFFF;
+</string>
+            </property>
+            <property name="text">
+             <string>Off</string>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_validator">
+            <property name="geometry">
+             <rect>
+              <x>120</x>
+              <y>80</y>
+              <width>261</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:#D42A78;</string>
+            </property>
+            <property name="text">
+             <string>Only in range 1450 to 1590 nm</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_validator_2">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>140</y>
+              <width>281</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:#D42A78;</string>
+            </property>
+            <property name="text">
+             <string>Valid Only in range -13.8 to +8.00 dBm</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
           </widget>
           <widget class="QWidget" name="wavelenghtSweepField_2" native="true">
            <property name="geometry">
             <rect>
              <x>10</x>
-             <y>470</y>
+             <y>380</y>
              <width>451</width>
-             <height>111</height>
+             <height>151</height>
             </rect>
            </property>
            <property name="font">
@@ -6328,16 +4986,16 @@ border-radius: 10px;
            <widget class="QLabel" name="label_wavelengthSweep_3">
             <property name="geometry">
              <rect>
-              <x>20</x>
+              <x>10</x>
               <y>0</y>
-              <width>179</width>
+              <width>201</width>
               <height>41</height>
              </rect>
             </property>
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>12</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
@@ -6356,7 +5014,7 @@ border-radius: 10px;
             <property name="geometry">
              <rect>
               <x>30</x>
-              <y>30</y>
+              <y>40</y>
               <width>51</width>
               <height>41</height>
              </rect>
@@ -6364,7 +5022,7 @@ border-radius: 10px;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -6382,8 +5040,8 @@ border-radius: 10px;
            <widget class="QLabel" name="label_stepDelay_3">
             <property name="geometry">
              <rect>
-              <x>30</x>
-              <y>60</y>
+              <x>230</x>
+              <y>90</y>
               <width>91</width>
               <height>41</height>
              </rect>
@@ -6391,7 +5049,7 @@ border-radius: 10px;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -6410,7 +5068,7 @@ border-radius: 10px;
             <property name="geometry">
              <rect>
               <x>260</x>
-              <y>30</y>
+              <y>40</y>
               <width>51</width>
               <height>41</height>
              </rect>
@@ -6418,7 +5076,7 @@ border-radius: 10px;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -6436,8 +5094,8 @@ border-radius: 10px;
            <widget class="QLabel" name="label_step_3">
             <property name="geometry">
              <rect>
-              <x>260</x>
-              <y>60</y>
+              <x>30</x>
+              <y>90</y>
               <width>51</width>
               <height>41</height>
              </rect>
@@ -6445,7 +5103,7 @@ border-radius: 10px;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -6464,7 +5122,7 @@ border-radius: 10px;
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>40</y>
+              <y>50</y>
               <width>101</width>
               <height>22</height>
              </rect>
@@ -6472,7 +5130,7 @@ border-radius: 10px;
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
              </font>
             </property>
             <property name="styleSheet">
@@ -6488,7 +5146,7 @@ padding: 0 8px;}
             <property name="geometry">
              <rect>
               <x>310</x>
-              <y>40</y>
+              <y>50</y>
               <width>91</width>
               <height>22</height>
              </rect>
@@ -6496,7 +5154,7 @@ padding: 0 8px;}
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
              </font>
             </property>
             <property name="styleSheet">
@@ -6511,8 +5169,8 @@ padding: 0 8px;}
            <widget class="QLineEdit" name="stepDelayInput_2">
             <property name="geometry">
              <rect>
-              <x>130</x>
-              <y>70</y>
+              <x>330</x>
+              <y>100</y>
               <width>81</width>
               <height>22</height>
              </rect>
@@ -6520,7 +5178,7 @@ padding: 0 8px;}
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
              </font>
             </property>
             <property name="styleSheet">
@@ -6535,8 +5193,8 @@ padding: 0 8px;}
            <widget class="QLineEdit" name="stepInput_2">
             <property name="geometry">
              <rect>
-              <x>310</x>
-              <y>70</y>
+              <x>80</x>
+              <y>100</y>
               <width>91</width>
               <height>22</height>
              </rect>
@@ -6544,7 +5202,7 @@ padding: 0 8px;}
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
              </font>
             </property>
             <property name="styleSheet">
@@ -6560,7 +5218,7 @@ padding: 0 8px;}
             <property name="geometry">
              <rect>
               <x>210</x>
-              <y>30</y>
+              <y>40</y>
               <width>51</width>
               <height>41</height>
              </rect>
@@ -6568,7 +5226,7 @@ padding: 0 8px;}
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -6586,16 +5244,16 @@ padding: 0 8px;}
            <widget class="QLabel" name="label_nm_13">
             <property name="geometry">
              <rect>
-              <x>210</x>
-              <y>60</y>
-              <width>51</width>
+              <x>410</x>
+              <y>90</y>
+              <width>41</width>
               <height>41</height>
              </rect>
             </property>
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -6604,7 +5262,7 @@ padding: 0 8px;}
              <string notr="true">color:#3AB795;</string>
             </property>
             <property name="text">
-             <string>nm</string>
+             <string>ms</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
@@ -6614,7 +5272,7 @@ padding: 0 8px;}
             <property name="geometry">
              <rect>
               <x>400</x>
-              <y>30</y>
+              <y>40</y>
               <width>51</width>
               <height>41</height>
              </rect>
@@ -6622,7 +5280,7 @@ padding: 0 8px;}
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -6640,8 +5298,8 @@ padding: 0 8px;}
            <widget class="QLabel" name="label_nm_15">
             <property name="geometry">
              <rect>
-              <x>400</x>
-              <y>60</y>
+              <x>170</x>
+              <y>90</y>
               <width>51</width>
               <height>41</height>
              </rect>
@@ -6649,7 +5307,7 @@ padding: 0 8px;}
             <property name="font">
              <font>
               <family>Inter</family>
-              <pointsize>10</pointsize>
+              <pointsize>11</pointsize>
               <weight>50</weight>
               <bold>false</bold>
              </font>
@@ -6664,20 +5322,101 @@ padding: 0 8px;}
              <set>Qt::AlignCenter</set>
             </property>
            </widget>
+           <widget class="QLabel" name="label_validator_3">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>60</y>
+              <width>221</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:#D42A78;</string>
+            </property>
+            <property name="text">
+             <string>Only in range 1450 to 1590 nm</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_validator_4">
+            <property name="geometry">
+             <rect>
+              <x>-10</x>
+              <y>110</y>
+              <width>241</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:#D42A78;</string>
+            </property>
+            <property name="text">
+             <string>Only in range 1450 to 1590 nm</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_validator_5">
+            <property name="geometry">
+             <rect>
+              <x>230</x>
+              <y>60</y>
+              <width>241</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:#D42A78;</string>
+            </property>
+            <property name="text">
+             <string>Only in range 1450 to 1590 nm</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
           </widget>
           <widget class="QPushButton" name="start_button">
            <property name="geometry">
             <rect>
              <x>30</x>
              <y>630</y>
-             <width>111</width>
+             <width>211</width>
              <height>41</height>
             </rect>
            </property>
            <property name="font">
             <font>
              <family>Inter</family>
-             <pointsize>10</pointsize>
+             <pointsize>12</pointsize>
              <weight>50</weight>
              <bold>false</bold>
              <kerning>false</kerning>
@@ -6703,16 +5442,16 @@ color: #FFFFFF;
           <widget class="QPushButton" name="stop_button_2">
            <property name="geometry">
             <rect>
-             <x>190</x>
+             <x>250</x>
              <y>630</y>
-             <width>111</width>
+             <width>211</width>
              <height>41</height>
             </rect>
            </property>
            <property name="font">
             <font>
              <family>Inter</family>
-             <pointsize>10</pointsize>
+             <pointsize>12</pointsize>
              <weight>50</weight>
              <bold>false</bold>
              <kerning>false</kerning>
@@ -6735,46 +5474,11 @@ color: #FFFFFF;
             <bool>false</bool>
            </property>
           </widget>
-          <widget class="QPushButton" name="reset_button_2">
-           <property name="geometry">
-            <rect>
-             <x>340</x>
-             <y>630</y>
-             <width>111</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Inter</family>
-             <pointsize>10</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-             <kerning>false</kerning>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">background-color: #9D59BF;
-border-radius: 10px;
-border:none;
-color: #FFFFFF;
-</string>
-           </property>
-           <property name="text">
-            <string>Reset</string>
-           </property>
-           <property name="autoDefault">
-            <bool>false</bool>
-           </property>
-           <property name="default">
-            <bool>false</bool>
-           </property>
-          </widget>
           <widget class="QLabel" name="label_status_2">
            <property name="geometry">
             <rect>
-             <x>50</x>
-             <y>580</y>
+             <x>90</x>
+             <y>530</y>
              <width>81</width>
              <height>51</height>
             </rect>
@@ -6782,7 +5486,7 @@ color: #FFFFFF;
            <property name="font">
             <font>
              <family>Inter</family>
-             <pointsize>10</pointsize>
+             <pointsize>12</pointsize>
              <weight>50</weight>
              <bold>false</bold>
             </font>
@@ -6800,16 +5504,16 @@ color: #FFFFFF;
           <widget class="QLabel" name="label_currentStatus_2">
            <property name="geometry">
             <rect>
-             <x>160</x>
-             <y>590</y>
-             <width>181</width>
+             <x>180</x>
+             <y>540</y>
+             <width>191</width>
              <height>31</height>
             </rect>
            </property>
            <property name="font">
             <font>
              <family>Inter</family>
-             <pointsize>10</pointsize>
+             <pointsize>11</pointsize>
              <weight>50</weight>
              <bold>false</bold>
             </font>
@@ -6828,42 +5532,11 @@ border-radius: 10px;
             <set>Qt::AlignCenter</set>
            </property>
           </widget>
-         </widget>
-        </item>
-        <item>
-         <widget class="QWidget" name="result_field" native="true">
-          <widget class="QLabel" name="label_result_2">
-           <property name="geometry">
-            <rect>
-             <x>20</x>
-             <y>20</y>
-             <width>81</width>
-             <height>50</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Inter</family>
-             <pointsize>15</pointsize>
-             <weight>75</weight>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color:#9D59BF;</string>
-           </property>
-           <property name="text">
-            <string>Result</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-           </property>
-          </widget>
           <widget class="QProgressBar" name="progressBar_4">
            <property name="geometry">
             <rect>
-             <x>30</x>
-             <y>640</y>
+             <x>40</x>
+             <y>590</y>
              <width>421</width>
              <height>31</height>
             </rect>
@@ -6895,17 +5568,53 @@ border-radius: 10px;
             <number>100</number>
            </property>
           </widget>
-          <widget class="QWidget" name="graphResult_3" native="true">
+          <widget class="QWidget" name="result_field" native="true">
            <property name="geometry">
             <rect>
-             <x>60</x>
-             <y>190</y>
-             <width>361</width>
-             <height>401</height>
+             <x>470</x>
+             <y>0</y>
+             <width>721</width>
+             <height>683</height>
             </rect>
            </property>
-           <property name="styleSheet">
-            <string notr="true">#graphResult_3{
+           <widget class="QLabel" name="label_result_2">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>81</width>
+              <height>50</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:#9D59BF;</string>
+            </property>
+            <property name="text">
+             <string>Result</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+           <widget class="QWidget" name="graphResult_3" native="true">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>180</y>
+              <width>681</width>
+              <height>411</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#graphResult_3{
 border-style: outset;
  border-width: 2px;
 border-radius: 10px;
@@ -6913,181 +5622,124 @@ border-radius: 10px;
 }
 
 </string>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_figure_2">
-           <property name="geometry">
-            <rect>
-             <x>100</x>
-             <y>130</y>
-             <width>51</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Inter</family>
-             <pointsize>10</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color:#9D59BF;</string>
-           </property>
-           <property name="text">
-            <string>Figure</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-           </property>
-          </widget>
-          <widget class="QLabel" name="figure_label_2">
-           <property name="geometry">
-            <rect>
-             <x>160</x>
-             <y>130</y>
-             <width>31</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Inter</family>
-             <pointsize>10</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color:#3AB795;
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_peak_2">
+            <property name="geometry">
+             <rect>
+              <x>460</x>
+              <y>610</y>
+              <width>51</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>13</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:#9D59BF;</string>
+            </property>
+            <property name="text">
+             <string>Peak</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="peak_label_2">
+            <property name="geometry">
+             <rect>
+              <x>520</x>
+              <y>610</y>
+              <width>61</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>10</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:#3AB795;
 border-style: outset;
  border-width: 2px;
 border-radius: 10px;
  border-color: #9D59BF;</string>
-           </property>
-           <property name="text">
-            <string>1</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignCenter</set>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_peak_2">
-           <property name="geometry">
-            <rect>
-             <x>210</x>
-             <y>130</y>
-             <width>41</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Inter</family>
-             <pointsize>10</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color:#9D59BF;</string>
-           </property>
-           <property name="text">
-            <string>Peak</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-           </property>
-          </widget>
-          <widget class="QLabel" name="peak_label_2">
-           <property name="geometry">
-            <rect>
-             <x>260</x>
-             <y>130</y>
-             <width>61</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Inter</family>
-             <pointsize>10</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color:#3AB795;
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_at_2">
+            <property name="geometry">
+             <rect>
+              <x>600</x>
+              <y>610</y>
+              <width>21</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>13</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:#9D59BF;</string>
+            </property>
+            <property name="text">
+             <string>at</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="at_label_2">
+            <property name="geometry">
+             <rect>
+              <x>630</x>
+              <y>610</y>
+              <width>61</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Inter</family>
+              <pointsize>10</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:#3AB795;
 border-style: outset;
  border-width: 2px;
 border-radius: 10px;
  border-color: #9D59BF;</string>
-           </property>
-           <property name="text">
-            <string>1</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignCenter</set>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_at_2">
-           <property name="geometry">
-            <rect>
-             <x>330</x>
-             <y>130</y>
-             <width>41</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Inter</family>
-             <pointsize>10</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color:#9D59BF;</string>
-           </property>
-           <property name="text">
-            <string>at</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-           </property>
-          </widget>
-          <widget class="QLabel" name="at_label_2">
-           <property name="geometry">
-            <rect>
-             <x>360</x>
-             <y>130</y>
-             <width>61</width>
-             <height>41</height>
-            </rect>
-           </property>
-           <property name="font">
-            <font>
-             <family>Inter</family>
-             <pointsize>10</pointsize>
-             <weight>50</weight>
-             <bold>false</bold>
-            </font>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">color:#3AB795;
-border-style: outset;
- border-width: 2px;
-border-radius: 10px;
- border-color: #9D59BF;</string>
-           </property>
-           <property name="text">
-            <string>1</string>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignCenter</set>
-           </property>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
           </widget>
          </widget>
         </item>
